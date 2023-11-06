@@ -7,10 +7,6 @@
 3. Create a trigger named as log_salary-update.
 4. Inside the trigger block, Insert the values into the salary_log table whenever the salary is updated.
 5. End the trigger.
-6. Update the salary of an employee in employee table.
-7. Whenever a salary is updated for the employee it must be logged into the salary_log table with old salary and new salary.
-8. Display the employee table, salary_log table.
-
 ### Program:
 ```
 CREATE TABLE employed(
