@@ -1,7 +1,6 @@
 # Ex. No: 5 Creating Triggers using PL/SQL
 ## DATE:1/9/23
 ### AIM: To create a Trigger using PL/SQL.
-
 ### Steps:
 1. Create employee table with following attributes (empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
 2. Create salary_log table with following attributes (log_id NUMBER GENERATED ALWAYS AS IDENTITY, empid NUMBER,empname VARCHAR(10),old_salary NUMBER,new_salary NUMBER,update_date DATE);
@@ -86,8 +85,5 @@ SELECT * FROM sal_logg;
 
 ### Output:
 ![dbms 5](https://github.com/karthick960/Ex-No-5-Creating-Triggers-using-PL-SQL/assets/121215938/87144dfc-4a93-4a1f-8774-6281607ca910)
-
-
-
 ### Result:
 Thus , the output has been successfully verified.
